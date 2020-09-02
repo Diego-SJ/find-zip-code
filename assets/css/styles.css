@@ -1,0 +1,35 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.gm-ui-hover-effect {
+  right: 8px !important;
+}
+
+.gm-ui-hover-effect img {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.po-title {
+  color: rgb(0, 145, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.po-detail {
+  margin: 4px;
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(91, 91, 91);
+}
